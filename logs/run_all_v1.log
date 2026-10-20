@@ -1,0 +1,282 @@
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== math/single: 32 done, 124 to run
+  single 10/124 acc=0.100 elapsed=6s
+  single 20/124 acc=0.100 elapsed=7s
+  single 30/124 acc=0.100 elapsed=8s
+  single 40/124 acc=0.100 elapsed=12s
+  single 50/124 acc=0.100 elapsed=13s
+  single 60/124 acc=0.117 elapsed=17s
+  single 70/124 acc=0.114 elapsed=19s
+  single 80/124 acc=0.138 elapsed=20s
+  single 90/124 acc=0.144 elapsed=24s
+  single 100/124 acc=0.140 elapsed=25s
+  single 110/124 acc=0.136 elapsed=27s
+  single 120/124 acc=0.133 elapsed=30s
+  single 124/124 acc=0.129 elapsed=31s
+== math/cot: 32 done, 124 to run
+  cot 10/124 acc=1.000 elapsed=33s
+  cot 20/124 acc=0.800 elapsed=43s
+  cot 30/124 acc=0.867 elapsed=65s
+  cot 40/124 acc=0.850 elapsed=82s
+  cot 50/124 acc=0.800 elapsed=94s
+  cot 60/124 acc=0.833 elapsed=112s
+  cot 70/124 acc=0.814 elapsed=129s
+  cot 80/124 acc=0.787 elapsed=146s
+  cot 90/124 acc=0.800 elapsed=159s
+  cot 100/124 acc=0.780 elapsed=174s
+  cot 110/124 acc=0.791 elapsed=190s
+  cot 120/124 acc=0.783 elapsed=206s
+  cot 124/124 acc=0.766 elapsed=222s
+== math/sc: 0 done, 156 to run
+  sc 10/156 acc=1.000 elapsed=152s
+  sc 20/156 acc=0.950 elapsed=268s
+  sc 30/156 acc=0.867 elapsed=363s
+  sc 40/156 acc=0.800 elapsed=513s
+  sc 50/156 acc=0.780 elapsed=614s
+  sc 60/156 acc=0.783 elapsed=717s
+  sc 70/156 acc=0.800 elapsed=814s
+  sc 80/156 acc=0.787 elapsed=884s
+  sc 90/156 acc=0.811 elapsed=1021s
+  sc 100/156 acc=0.810 elapsed=1123s
+  sc 110/156 acc=0.809 elapsed=1200s
+  sc 120/156 acc=0.817 elapsed=1328s
+  sc 130/156 acc=0.823 elapsed=1389s
+  sc 140/156 acc=0.836 elapsed=1495s
+  sc 150/156 acc=0.827 elapsed=1581s
+  sc 156/156 acc=0.814 elapsed=1676s
+== math/debate: 32 done, 124 to run
+  debate 10/124 acc=1.000 elapsed=875s
+  debate 20/124 acc=0.950 elapsed=1294s
+  debate 30/124 acc=0.967 elapsed=1737s
+  debate 40/124 acc=0.975 elapsed=2147s
+  debate 50/124 acc=0.980 elapsed=2477s
+  debate 60/124 acc=0.967 elapsed=3103s
+  debate 70/124 acc=0.957 elapsed=3558s
+  debate 80/124 acc=0.963 elapsed=3966s
+  debate 90/124 acc=0.967 elapsed=4244s
+  debate 100/124 acc=0.970 elapsed=4700s
+  debate 110/124 acc=0.973 elapsed=5166s
+  debate 120/124 acc=0.975 elapsed=5350s
+  debate 124/124 acc=0.968 elapsed=5519s
+== math/roles: 0 done, 156 to run
+  roles 10/156 acc=1.000 elapsed=760s
+  roles 20/156 acc=1.000 elapsed=1285s
+  roles 30/156 acc=1.000 elapsed=2085s
+  roles 40/156 acc=0.950 elapsed=2699s
+  roles 50/156 acc=0.960 elapsed=3005s
+  roles 60/156 acc=0.967 elapsed=3645s
+  roles 70/156 acc=0.971 elapsed=4218s
+  roles 80/156 acc=0.975 elapsed=4438s
+  roles 90/156 acc=0.978 elapsed=5151s
+  roles 100/156 acc=0.980 elapsed=5668s
+  roles 110/156 acc=0.973 elapsed=6064s
+  roles 120/156 acc=0.975 elapsed=6556s
+  roles 130/156 acc=0.977 elapsed=6940s
+  roles 140/156 acc=0.979 elapsed=7439s
+  roles 150/156 acc=0.973 elapsed=7772s
+  roles 156/156 acc=0.962 elapsed=7970s
+== math/anticonf: 0 done, 156 to run
+  anticonf 10/156 acc=1.000 elapsed=672s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  anticonf 20/156 acc=1.000 elapsed=1200s
+  anticonf 30/156 acc=1.000 elapsed=1893s
+  anticonf 40/156 acc=0.950 elapsed=2419s
+  anticonf 50/156 acc=0.960 elapsed=2895s
+  anticonf 60/156 acc=0.967 elapsed=3381s
+  anticonf 70/156 acc=0.957 elapsed=3787s
+  anticonf 80/156 acc=0.950 elapsed=4098s
+  anticonf 90/156 acc=0.956 elapsed=4661s
+  anticonf 100/156 acc=0.950 elapsed=5099s
+  anticonf 110/156 acc=0.955 elapsed=5358s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  anticonf 120/156 acc=0.958 elapsed=5899s
+  anticonf 130/156 acc=0.962 elapsed=6327s
+  anticonf 140/156 acc=0.964 elapsed=6781s
+  anticonf 150/156 acc=0.967 elapsed=7173s
+  anticonf 156/156 acc=0.955 elapsed=7363s
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== gsm8k/single: 0 done, 100 to run
+  single 10/100 acc=1.000 elapsed=4s
+  single 20/100 acc=0.900 elapsed=6s
+  single 30/100 acc=0.733 elapsed=9s
+  single 40/100 acc=0.650 elapsed=11s
+  single 50/100 acc=0.680 elapsed=13s
+  single 60/100 acc=0.667 elapsed=16s
+  single 70/100 acc=0.657 elapsed=18s
+  single 80/100 acc=0.650 elapsed=20s
+  single 90/100 acc=0.667 elapsed=22s
+  single 100/100 acc=0.650 elapsed=25s
+== gsm8k/cot: 20 done, 80 to run
+  cot 10/80 acc=1.000 elapsed=9s
+  cot 20/80 acc=0.950 elapsed=14s
+  cot 30/80 acc=0.900 elapsed=21s
+  cot 40/80 acc=0.900 elapsed=27s
+  cot 50/80 acc=0.880 elapsed=32s
+  cot 60/80 acc=0.900 elapsed=39s
+  cot 70/80 acc=0.914 elapsed=44s
+  cot 80/80 acc=0.912 elapsed=70s
+== gsm8k/sc: 20 done, 80 to run
+  sc 10/80 acc=1.000 elapsed=64s
+  sc 20/80 acc=0.950 elapsed=84s
+  sc 30/80 acc=0.900 elapsed=131s
+  sc 40/80 acc=0.925 elapsed=168s
+  sc 50/80 acc=0.920 elapsed=200s
+  sc 60/80 acc=0.917 elapsed=237s
+  sc 70/80 acc=0.929 elapsed=275s
+  sc 80/80 acc=0.925 elapsed=425s
+== gsm8k/debate: 20 done, 80 to run
+  debate 10/80 acc=0.900 elapsed=184s
+  debate 20/80 acc=0.950 elapsed=294s
+  debate 30/80 acc=0.900 elapsed=421s
+  debate 40/80 acc=0.925 elapsed=520s
+  debate 50/80 acc=0.920 elapsed=642s
+  debate 60/80 acc=0.933 elapsed=775s
+  debate 70/80 acc=0.943 elapsed=861s
+  debate 80/80 acc=0.938 elapsed=1046s
+== gsm8k/roles: 0 done, 100 to run
+  roles 10/100 acc=1.000 elapsed=209s
+  roles 20/100 acc=1.000 elapsed=408s
+  roles 30/100 acc=1.000 elapsed=570s
+  roles 40/100 acc=0.950 elapsed=693s
+  roles 50/100 acc=0.940 elapsed=836s
+  roles 60/100 acc=0.950 elapsed=1022s
+  roles 70/100 acc=0.943 elapsed=1183s
+  roles 80/100 acc=0.950 elapsed=1374s
+  roles 90/100 acc=0.956 elapsed=1498s
+  roles 100/100 acc=0.950 elapsed=1728s
+== gsm8k/anticonf: 0 done, 100 to run
+  anticonf 10/100 acc=1.000 elapsed=217s
+  anticonf 20/100 acc=1.000 elapsed=363s
+  anticonf 30/100 acc=1.000 elapsed=510s
+  anticonf 40/100 acc=0.950 elapsed=623s
+  anticonf 50/100 acc=0.940 elapsed=801s
+  anticonf 60/100 acc=0.950 elapsed=947s
+  anticonf 70/100 acc=0.943 elapsed=1131s
+  anticonf 80/100 acc=0.938 elapsed=1293s
+  anticonf 90/100 acc=0.944 elapsed=1405s
+  anticonf 100/100 acc=0.940 elapsed=1624s
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== mmlu/single: 0 done, 100 to run
+  single 10/100 acc=0.800 elapsed=2s
+  single 20/100 acc=0.850 elapsed=6s
+  single 30/100 acc=0.833 elapsed=7s
+  single 40/100 acc=0.775 elapsed=10s
+  single 50/100 acc=0.760 elapsed=11s
+  single 60/100 acc=0.783 elapsed=14s
+  single 70/100 acc=0.743 elapsed=16s
+  single 80/100 acc=0.762 elapsed=18s
+  single 90/100 acc=0.778 elapsed=20s
+  single 100/100 acc=0.760 elapsed=22s
+== mmlu/cot: 0 done, 100 to run
+  cot 10/100 acc=0.800 elapsed=16s
+  cot 20/100 acc=0.900 elapsed=31s
+  cot 30/100 acc=0.933 elapsed=44s
+  cot 40/100 acc=0.925 elapsed=52s
+  cot 50/100 acc=0.940 elapsed=67s
+  cot 60/100 acc=0.950 elapsed=80s
+  cot 70/100 acc=0.929 elapsed=92s
+  cot 80/100 acc=0.912 elapsed=103s
+  cot 90/100 acc=0.922 elapsed=112s
+  cot 100/100 acc=0.910 elapsed=124s
+== mmlu/sc: 0 done, 100 to run
+  sc 10/100 acc=0.900 elapsed=103s
+  sc 20/100 acc=0.900 elapsed=195s
+  sc 30/100 acc=0.900 elapsed=256s
+  sc 40/100 acc=0.925 elapsed=317s
+  sc 50/100 acc=0.920 elapsed=407s
+  sc 60/100 acc=0.933 elapsed=463s
+  sc 70/100 acc=0.929 elapsed=546s
+  sc 80/100 acc=0.938 elapsed=630s
+  sc 90/100 acc=0.933 elapsed=689s
+  sc 100/100 acc=0.920 elapsed=744s
+== mmlu/debate: 0 done, 100 to run
+  debate 10/100 acc=0.900 elapsed=225s
+  debate 20/100 acc=0.850 elapsed=518s
+  debate 30/100 acc=0.867 elapsed=664s
+  debate 40/100 acc=0.900 elapsed=869s
+  debate 50/100 acc=0.920 elapsed=1150s
+  debate 60/100 acc=0.933 elapsed=1283s
+  debate 70/100 acc=0.929 elapsed=1544s
+  debate 80/100 acc=0.938 elapsed=1775s
+  debate 90/100 acc=0.933 elapsed=1959s
+  debate 100/100 acc=0.930 elapsed=2074s
+== mmlu/roles: 0 done, 100 to run
+  roles 10/100 acc=0.900 elapsed=361s
+  roles 20/100 acc=0.900 elapsed=728s
+  roles 30/100 acc=0.900 elapsed=837s
+  roles 40/100 acc=0.925 elapsed=1135s
+  roles 50/100 acc=0.920 elapsed=1389s
+  roles 60/100 acc=0.933 elapsed=1711s
+  roles 70/100 acc=0.914 elapsed=1987s
+  roles 80/100 acc=0.925 elapsed=2203s
+  roles 90/100 acc=0.933 elapsed=2450s
+  roles 100/100 acc=0.920 elapsed=2637s
+== mmlu/anticonf: 0 done, 100 to run
+  anticonf 10/100 acc=0.900 elapsed=271s
+  anticonf 20/100 acc=0.850 elapsed=633s
+  anticonf 30/100 acc=0.833 elapsed=807s
+  anticonf 40/100 acc=0.875 elapsed=1048s
+  anticonf 50/100 acc=0.900 elapsed=1270s
+  anticonf 60/100 acc=0.917 elapsed=1559s
+  anticonf 70/100 acc=0.914 elapsed=1823s
+  anticonf 80/100 acc=0.912 elapsed=2030s
+  anticonf 90/100 acc=0.922 elapsed=2311s
+  anticonf 100/100 acc=0.920 elapsed=2413s
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== math/debate_a1: 0 done, 80 to run
+  debate_a1 10/80 acc=1.000 elapsed=79s
+  debate_a1 20/80 acc=1.000 elapsed=154s
+  debate_a1 30/80 acc=0.900 elapsed=228s
+  debate_a1 40/80 acc=0.900 elapsed=315s
+  debate_a1 50/80 acc=0.900 elapsed=385s
+  debate_a1 60/80 acc=0.917 elapsed=445s
+  debate_a1 70/80 acc=0.914 elapsed=487s
+  debate_a1 80/80 acc=0.912 elapsed=537s
+== math/debate_a5: 0 done, 80 to run
+  debate_a5 10/80 acc=1.000 elapsed=1183s
+  debate_a5 20/80 acc=1.000 elapsed=2188s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  debate_a5 30/80 acc=0.967 elapsed=3438s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  debate_a5 40/80 acc=0.975 elapsed=5112s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  debate_a5 50/80 acc=0.940 elapsed=6507s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  debate_a5 60/80 acc=0.933 elapsed=7885s
+  debate_a5 70/80 acc=0.943 elapsed=8950s
+  debate_a5 80/80 acc=0.950 elapsed=9262s
+analysis written to results/summary.md

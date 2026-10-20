@@ -1,0 +1,45 @@
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== math/single: 0 done, 156 to run
+  single 10/156 acc=0.300 elapsed=1s
+  single 20/156 acc=0.300 elapsed=2s
+  single 30/156 acc=0.267 elapsed=2s
+  single 40/156 acc=0.300 elapsed=3s
+  single 50/156 acc=0.240 elapsed=3s
+  single 60/156 acc=0.217 elapsed=4s
+  single 70/156 acc=0.200 elapsed=4s
+  single 80/156 acc=0.212 elapsed=5s
+  single 90/156 acc=0.211 elapsed=5s
+  single 100/156 acc=0.220 elapsed=6s
+  single 110/156 acc=0.227 elapsed=6s
+  single 120/156 acc=0.225 elapsed=7s
+  single 130/156 acc=0.215 elapsed=7s
+  single 140/156 acc=0.214 elapsed=7s
+  single 150/156 acc=0.207 elapsed=8s
+  single 156/156 acc=0.199 elapsed=8s
+== math/cot: 0 done, 156 to run
+  cot 10/156 acc=1.000 elapsed=21s
+  cot 20/156 acc=1.000 elapsed=38s
+  cot 30/156 acc=1.000 elapsed=64s
+  cot 40/156 acc=1.000 elapsed=118s
+  cot 50/156 acc=1.000 elapsed=149s
+  cot 60/156 acc=0.983 elapsed=174s
+  cot 70/156 acc=0.986 elapsed=203s
+  cot 80/156 acc=0.975 elapsed=235s
+  cot 90/156 acc=0.978 elapsed=256s
+  cot 100/156 acc=0.980 elapsed=278s
+  cot 110/156 acc=0.982 elapsed=309s
+  cot 120/156 acc=0.983 elapsed=322s
+  cot 130/156 acc=0.985 elapsed=336s
+  cot 140/156 acc=0.986 elapsed=356s
+  cot 150/156 acc=0.987 elapsed=371s
+  cot 156/156 acc=0.987 elapsed=430s
+== math/sc: 0 done, 156 to run
+  sc 10/156 acc=1.000 elapsed=174s
+  sc 20/156 acc=1.000 elapsed=302s
+  sc 30/156 acc=1.000 elapsed=602s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  sc 40/156 acc=1.000 elapsed=1149s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+  sc 50/156 acc=1.000 elapsed=1591s

@@ -1,0 +1,379 @@
+gsm8k/anticonf: v1 100, 已有 0, 待修复 100
+gsm8k/cot: v1 100, 已有 0, 待修复 100
+gsm8k/debate: v1 100, 已有 0, 待修复 100
+gsm8k/roles: v1 100, 已有 0, 待修复 100
+gsm8k/sc: v1 100, 已有 0, 待修复 100
+math/anticonf: v1 156, 已有 0, 待修复 156
+math/cot: v1 156, 已有 156, 待修复 0
+math/debate: v1 156, 已有 0, 待修复 156
+math/debate_a1: v1 80, 已有 0, 待修复 80
+math/debate_a5: v1 80, 已有 0, 待修复 80
+math/roles: v1 156, 已有 0, 待修复 156
+math/sc: v1 156, 已有 50, 待修复 106
+mmlu/anticonf: v1 100, 已有 0, 待修复 100
+mmlu/cot: v1 100, 已有 0, 待修复 100
+mmlu/debate: v1 100, 已有 0, 待修复 100
+mmlu/roles: v1 100, 已有 0, 待修复 100
+mmlu/sc: v1 100, 已有 0, 待修复 100
+  50/1734 records, 0 needed continuation
+  100/1734 records, 0 needed continuation
+  150/1734 records, 0 needed continuation
+  200/1734 records, 0 needed continuation
+  250/1734 records, 0 needed continuation
+  300/1734 records, 0 needed continuation
+  350/1734 records, 0 needed continuation
+  400/1734 records, 0 needed continuation
+  450/1734 records, 0 needed continuation
+  500/1734 records, 3 needed continuation
+  550/1734 records, 24 needed continuation
+  600/1734 records, 37 needed continuation
+  650/1734 records, 49 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  700/1734 records, 69 needed continuation
+  750/1734 records, 87 needed continuation
+  800/1734 records, 98 needed continuation
+  850/1734 records, 115 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+  900/1734 records, 125 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  950/1734 records, 146 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  1000/1734 records, 162 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+  1050/1734 records, 178 needed continuation
+  1100/1734 records, 192 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[error] math/anticonf/math-35:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1148, in request
+    response = self._send_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_client.py", line 609, in _send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_client.py", line 588, in _send_with_auth_retry
+    response = super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1069, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/repair.py", line 206, in main
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 171, in repair
+    r, n = repair_debate(task, item, r, *DEBATE_CFG[method])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 120, in repair_debate
+    out, d = resume(ctx, out, 0.7)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 50, in resume
+    rest = chat(messages, u, temperature=temperature, max_tokens=config.MAX_TOKENS - n, prefill=partial)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 63, in chat
+    r = _client.chat.completions.create(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1318, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1440, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1166, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  1150/1734 records, 207 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+  1200/1734 records, 225 needed continuation
+  1250/1734 records, 235 needed continuation
+  1300/1734 records, 241 needed continuation
+  1350/1734 records, 243 needed continuation
+  1400/1734 records, 245 needed continuation
+  1450/1734 records, 247 needed continuation
+  1500/1734 records, 250 needed continuation
+  1550/1734 records, 253 needed continuation
+  1600/1734 records, 258 needed continuation
+  1650/1734 records, 262 needed continuation
+  1700/1734 records, 267 needed continuation
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[error] math/debate/math-35:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1148, in request
+    response = self._send_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_client.py", line 609, in _send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_client.py", line 588, in _send_with_auth_retry
+    response = super()._send_request(request, stream=stream, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1069, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/repair.py", line 206, in main
+    locks = {}
+               
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 171, in repair
+    task = TASKS[dataset]
+               ~^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 120, in repair_debate
+    for i, ctx in enumerate(contexts):
+                     ^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/repair.py", line 50, in resume
+    return ntok(text) >= V1_LIMIT
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 63, in chat
+    t0 = time.time()
+        ^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1318, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1440, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1166, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+
+=== relaunch Tue Oct 20 16:14:14 CST 2026 ===
+gsm8k/anticonf: v1 100, 已有 100, 待修复 0
+gsm8k/cot: v1 100, 已有 100, 待修复 0
+gsm8k/debate: v1 100, 已有 100, 待修复 0
+gsm8k/roles: v1 100, 已有 100, 待修复 0
+gsm8k/sc: v1 100, 已有 100, 待修复 0
+math/anticonf: v1 156, 已有 155, 待修复 1
+math/cot: v1 156, 已有 156, 待修复 0
+math/debate: v1 156, 已有 155, 待修复 1
+math/debate_a1: v1 80, 已有 80, 待修复 0
+math/debate_a5: v1 80, 已有 80, 待修复 0
+math/roles: v1 156, 已有 156, 待修复 0
+math/sc: v1 156, 已有 156, 待修复 0
+mmlu/anticonf: v1 100, 已有 100, 待修复 0
+mmlu/cot: v1 100, 已有 100, 待修复 0
+mmlu/debate: v1 100, 已有 100, 待修复 0
+mmlu/roles: v1 100, 已有 100, 待修复 0
+mmlu/sc: v1 100, 已有 100, 待修复 0
+  2/2 records, 2 needed continuation
+/home/madai/ai-pre/debate/analyze.py:214: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend(frameon=False, loc="upper left")
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== math/single: 156 done, 0 to run
+== math/cot: 156 done, 0 to run
+== math/sc: 156 done, 0 to run
+== math/debate: 156 done, 0 to run
+== math/roles: 156 done, 0 to run
+== math/anticonf: 156 done, 0 to run
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== gsm8k/single: 100 done, 0 to run
+== gsm8k/cot: 100 done, 0 to run
+== gsm8k/sc: 100 done, 0 to run
+== gsm8k/debate: 100 done, 0 to run
+== gsm8k/roles: 100 done, 0 to run
+== gsm8k/anticonf: 100 done, 0 to run
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== mmlu/single: 100 done, 0 to run
+== mmlu/cot: 100 done, 0 to run
+== mmlu/sc: 100 done, 0 to run
+== mmlu/debate: 100 done, 0 to run
+== mmlu/roles: 100 done, 0 to run
+== mmlu/anticonf: 100 done, 0 to run
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== math/debate_a1: 80 done, 0 to run
+== math/debate_a5: 80 done, 0 to run
+/home/madai/ai-pre/debate/analyze.py:214: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend(frameon=False, loc="upper left")
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== aime/single: 60 done, 0 to run
+== aime/cot: 47 done, 13 to run
+Terminated
+/home/madai/ai-pre/debate/analyze.py:245: UserWarning: No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+  ax.legend(frameon=False, loc="upper left")
+analysis written to results/summary.md

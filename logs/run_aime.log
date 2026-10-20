@@ -1,0 +1,594 @@
+model=Qwen/Qwen3.8-27B base=http://172.18.162.10:8006/v1 thinking=False mock=False
+== aime/single: 60 done, 0 to run
+== aime/cot: 50 done, 10 to run
+  cot 10/10 acc=0.500 elapsed=249s
+== aime/sc: 0 done, 60 to run
+  sc 10/60 acc=1.000 elapsed=797s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  sc 20/60 acc=0.900 elapsed=1291s
+  sc 30/60 acc=0.900 elapsed=1783s
+  sc 40/60 acc=0.925 elapsed=2362s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  sc 50/60 acc=0.900 elapsed=3001s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  sc 60/60 acc=0.850 elapsed=4307s
+== aime/debate: 0 done, 60 to run
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+  debate 10/60 acc=0.900 elapsed=1930s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 5s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[chat] APITimeoutError: Request timed out.; retry in 10s
+[error] aime-6:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[error] aime-29:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[error] aime-19:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[error] aime-4:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[error] aime-1:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[error] aime-21:
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 342, in __iter__
+    raise exc
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 57, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 371, in iter_bytes
+    for chunk in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_client.py", line 153, in __iter__
+    for chunk in self._stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 126, in __iter__
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/madai/ai-pre/debate/run.py", line 48, in run_method
+    rec = fut.result()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/run.py", line 39, in work
+    rec = fn(task, item)
+          ^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 190, in <lambda>
+    "debate": lambda t, it: debate(t, it, 3, 3, "orig"),
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/methods.py", line 118, in debate
+    out = chat(ctx, u, temperature=0.7)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/madai/ai-pre/debate/llm.py", line 76, in chat
+    for chunk in stream:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 52, in __iter__
+    for item in self._iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 70, in __stream__
+    for sse in iterator:
+  File "/home/madai/ai-pre/.venv/lib/python3.12/site-packages/openai/_streaming.py", line 59, in _iter_events
+    raise APITimeoutError(request=self.response.request) from err
+openai.APITimeoutError: Request timed out.
+
+[chat] APITimeoutError: Request timed out.; retry in 40s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 20s
+[chat] APITimeoutError: Request timed out.; retry in 5s
