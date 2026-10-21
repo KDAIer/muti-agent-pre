@@ -39,12 +39,13 @@ class Usage:
 
 # trust_env=False:绕过本机 HTTP 代理(内网地址走代理会 502)
 # 流式输出 + 读超时:只要还在出 token 就不会超时(长输出可以跑很久),
-# 但服务端丢掉请求、连接却没断开时,600s 内收不到任何数据就判定失败并重试,不会无限挂起
+# 但服务端丢掉请求、连接却没断开时,READ_TIMEOUT 秒内收不到任何数据就判定失败并重试,不会无限挂起;
+# 长上下文在服务端被抢占时也会长时间静默,所以 AIME 辩论要调大(并降低并发)
 _client = None if config.MOCK else OpenAI(
     base_url=config.API_BASE,
     api_key=config.API_KEY,
     http_client=httpx.Client(trust_env=False),
-    timeout=httpx.Timeout(connect=30, read=600, write=60, pool=60),
+    timeout=httpx.Timeout(connect=30, read=config.READ_TIMEOUT, write=60, pool=60),
     max_retries=0,
 )
 
